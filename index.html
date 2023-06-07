@@ -4,10 +4,21 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Bitcoin Arcade</title>
+        <title>pop-shoot</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
+        <div id="startScreen">
+            <div id="qrcode"></div>
+            <p id="lnurl"></p>
+            <button id="startBtn" disabled>Start Game</button>
+        </div>
+
+        <div id="endScreen" style="display: none;">
+            <div id="qrcodeEnd"></div>
+            <p id="lnurlEnd"></p>
+        </div>
+
         <canvas id="canvas"></canvas>
 
         <!-- Assets-->
@@ -513,5 +524,6 @@
         <!-- MUSIC END -->
 
         <script src="./app.js" type="module"></script>
+        <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
     </body>
 </html>
