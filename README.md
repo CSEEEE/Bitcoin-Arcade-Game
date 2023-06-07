@@ -1,12 +1,12 @@
 <img src="repo/banner.png" alt="banner">
 
-# pop-shoot
+# Bitcoin Arcade
 
 A synthwave styled space shooter, inspired by the 80s arcades. Written in plain Javascript.  
 The game includes 5 stages & bosses, as well as many cool features such as bullet-time, randomized item drops, weather effects and an awesome soundtrack by TeknoAxe.
 
-:joystick: [Play](https://kiwphi.github.io/pop-shoot/) (F11 to toggle full-screen)  
-:beetle: [Report Bug](https://github.com/kiwphi/pop-shoot/issues)
+:joystick: [Play](https://cseeee.github.io/Bitcoin-Arcade-Game/) (F11 to toggle full-screen)  
+:beetle: [Report Bug](https://cseeee.github.io/Bitcoin-Arcade-Game/issues)
 
 # screenshots
 
