@@ -4,21 +4,13 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>pop-shoot</title>
+        <title>sat-shoot</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div id="startScreen">
-            <div id="qrcode"></div>
-            <p id="lnurl"></p>
-            <button id="startBtn" disabled>Start Game</button>
-        </div>
-
-        <div id="endScreen" style="display: none;">
-            <div id="qrcodeEnd"></div>
-            <p id="lnurlEnd"></p>
-        </div>
-
+        <button id="fullscreen-button">Go Fullscreen</button>
+        <div id="game-container">
+        
         <canvas id="canvas"></canvas>
 
         <!-- Assets-->
@@ -522,8 +514,8 @@
         <audio src="./assets/audio/music/musicslowmo.ogg" id="musicslowmo" type="audio/mpeg"></audio>
         <audio src="./assets/audio/music/musicclock.ogg" id="musicclock" type="audio/mpeg"></audio>
         <!-- MUSIC END -->
-
+        </div>
         <script src="./app.js" type="module"></script>
-        <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+        <script src="./fullscreen.js"></script>
     </body>
 </html>
